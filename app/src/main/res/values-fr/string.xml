@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name" translatable="false">Pokémap</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="action_clearmap">Vider la carte</string>
+    <string name="action_logout">Déconnexion</string>
+
+    <string name="pref_file_key">com.omkarmoghe.pokemap.PREFERENCE_FILE_KEY</string>
+    <string name="pref_theme">PresetTheme</string>
+    <string name="pref_theme_no_action_bar">PresetThemeNoAb</string>
+
+    <string name="logout_prompt_message">Etes vous sure de vouloir vous déconnecter?</string>
+    <string name="yes">OUI</string>
+    <string name="no">NON</string>
+
+    <string name="pref_cat_user_account">Compte</string>
+    <string name="pref_warning">NOTE: N'utilisez pas votre compte principal!
+        A la place, créez un faux compte Pokémon Trainer Club avec une adresse et un mot de passe différent.</string>
+    <string name="pref_username">Nom D'utilisateur</string>
+    <string name="pref_username_key" translatable="false">UsernameKey</string>
+    <string name="pref_default_username">Jean Martin</string>
+    <string name="pref_password">Mot de passe</string>
+    <string name="pref_password_key" translatable="false">PasswordKey</string>
+    <string name="pref_default_password" translatable="false">***</string>
+
+    <string name="pref_cat_general">Générale</string>
+    <string name="pref_pokestops_title">Afficher Pokéstops</string>
+    <string name="pref_pokestops_key" translatable="false">pokestops_checkbox</string>
+    <string name="pref_gyms_title">Afficher Gyms</string>
+    <string name="pref_gyms_key" translatable="false">gyms_checkbox</string>
+    <string name="pref_scanned_title">Afficher les endroits scannés</string>
+    <string name="pref_scanned_key" translatable="false">scanned_checkbox</string>
+    <string name="pref_pokemons_to_show_key">pokemons_to_show</string>
+
+    <string name="pokestop" translatable="false">Pokéstop</string>
+
+
+    <string name="pref_cat_service" translatable="false">Service en tache de fond</string>
+    <string name="pref_service_enable_title">Activé</string>
+    <string name="pref_service_enable_key" translatable="false">background_poke_service</string>
+    <string name="pref_service_refresh_title">Vitesse Rafraichissement</string>
+    <string name="pref_service_refresh_summary">Délais entre les actualisations du service.</string>
+    <string name="pref_service_refresh_key" translatable="false">service_refresh_rate</string>
+
+    <string name="pref_cat_other">Autre</string>
+    <string name="pref_theme_button">Theme</string>
+    <string name="pref_theme_button_key">ThemeKey</string>
+
+    <string name="toast_credentials">Connexion impossible. Vérifier votre saisie</string>
+    <string name="title_activity_poke_map">Pokémon proches</string>
+
+    <string name="login_warning">Il est recommandé d'utilisé un faux compte Pokémon TRainer Club et d'utiliser un compte google non lié a un compte pokemon go. L'utilisation de cette application peur engendrer un </string>
+    <string name="prompt_username">PTC Login</string>
+    <string name="prompt_password">PTC mot de passe</string>
+    <string name="action_sign_in">S'enregiistrer</string>
+    <string name="error_field_required">Champ obligatoire</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="login_warning_title">Attention:</string>
+
+    <string name="request_credentials_title">Saisissez vos identification Pokemon Go</string>
+    <string name="search_pokemon_map_suggestion">(Appui long sur la carte pour changer de position)</string>
+
+    <string name="pokemon_to_show">Pokémon à Afficher</string>
+
+    <string name="action_relogin">Reconnexion</string>
+    <string name="ban">Banni</string>
+    <string name="minutes">"minutes"</string>
+    <string name="pokemon_disappearing_in">"Disparait dans: "</string>
+    <string name="pokemon_expired">Expiré</string>
+    <string name="position_picked">Position Sélectionnée</string>
+    <string name="seconds">"s"</string>
+    <string name="toast_localization_waiting">Attente de position&#8230;</string>
+    <string name="toast_login_successful">Connexion Réussie.</string>
+    <string name="toast_map_not_initialized">Problème Initialization Google Map</string>
+    <string name="toast_server_unreachable">Impossible de joindre les serveurs Pokémon GO. Les serveurs peuvent étres innactif.</string>
+    <string name="toast_token_expired">Le jeton de login a expiré. Regénération.</string>
+    <string name="toast_user_found">Trouvé!</string>
+    <string name="toast_login_error">Impossible de se connecter.</string>
+    <string name="toast_internal_error">Erreur Interne. Il est possible que vous soyer sans réseau ou que les serveurs soient innaccessible.</string>
+    <string name="toast_ptc_login_error">PTC Connextion raté</string>
+    <string name="enable_location_permission_title">Activé les permission de localisation</string>
+    <string name="enable_location_permission_message">Merci d'activer les permission de localisation</string>
+    <string name="toast_no_location">Localisation GPS ratée</string>
+    <string name="expiring_in">"Expire dans: "</string>
+    <string name="google_login_failed">Connexion Google ratée</string>
+    <string name="permition_message">Merci d'authorisé la localisation pour utiliser cette app.</string>
+    <string name="allow">Authoriser</string>
+    <string name="app_settings">Paramètres</string>
+    <string name="disclaimer">Disclaimer</string>
+
+
+    <string name="toast_searching">Cherche&#8230;</string>
+    <string name="toast_pokemon_found_count">"Pokémon trouvés"</string>
+    <string name="pokemon_found_none">Pas de nouveau Pokémon trouvé.</string>
+    <string name="pokemon_found_new">"nouveau Pokémons trouvés."</string>
+
+    <string name="notification_service_title">Pokémap Service</string>
+    <string name="notification_service_scanning">Scann</string>
+    <string name="notification_service_stop">Stop Service</string>
+    <string name="notification_service_pokemon_near">" Pokémon proches."</string>
+    <string name="notification_service_pokemon_in_area">" Pokémon dans le coin:"</string>
+    <string name="meters">metres</string>
+    <string name="gym">Gym</string>
+
+    <string name="button_ok">Ok</string>
+
+</resources>
